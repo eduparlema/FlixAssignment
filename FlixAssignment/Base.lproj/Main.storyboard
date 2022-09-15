@@ -23,25 +23,40 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="alu-dj-OII">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="alu-dj-OII">
                                             <rect key="frame" x="20" y="6" width="111" height="128"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="128" id="Sfd-rr-wtl"/>
+                                                <constraint firstAttribute="width" constant="111" id="dU6-rX-YS7"/>
+                                            </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9H-QG-4Ld">
-                                            <rect key="frame" x="139" y="6" width="255" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9H-QG-4Ld">
+                                            <rect key="frame" x="139" y="6" width="255" height="25.5"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPh-Cj-Jz8">
-                                            <rect key="frame" x="139" y="35" width="255" height="99"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPh-Cj-Jz8">
+                                            <rect key="frame" x="139" y="39.5" width="255" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="oPh-Cj-Jz8" firstAttribute="top" secondItem="Q9H-QG-4Ld" secondAttribute="bottom" constant="8" symbolic="YES" id="BHM-rG-JTn"/>
+                                        <constraint firstItem="oPh-Cj-Jz8" firstAttribute="leading" secondItem="alu-dj-OII" secondAttribute="trailing" constant="8" symbolic="YES" id="BU0-tM-diC"/>
+                                        <constraint firstAttribute="trailing" secondItem="Q9H-QG-4Ld" secondAttribute="trailing" constant="20" symbolic="YES" id="DCe-9D-tQo"/>
+                                        <constraint firstItem="alu-dj-OII" firstAttribute="top" secondItem="9p2-hK-WaW" secondAttribute="top" constant="6" id="ObC-XN-h0k"/>
+                                        <constraint firstItem="Q9H-QG-4Ld" firstAttribute="top" secondItem="9p2-hK-WaW" secondAttribute="top" constant="6" id="RF3-Ol-AhK"/>
+                                        <constraint firstAttribute="trailing" secondItem="oPh-Cj-Jz8" secondAttribute="trailing" constant="20" symbolic="YES" id="SG2-PS-qm0"/>
+                                        <constraint firstItem="alu-dj-OII" firstAttribute="leading" secondItem="9p2-hK-WaW" secondAttribute="leading" constant="20" symbolic="YES" id="eqB-L6-9p2"/>
+                                        <constraint firstItem="oPh-Cj-Jz8" firstAttribute="top" secondItem="Q9H-QG-4Ld" secondAttribute="bottom" constant="8" symbolic="YES" id="kEU-PQ-6Uj"/>
+                                        <constraint firstItem="Q9H-QG-4Ld" firstAttribute="leading" secondItem="alu-dj-OII" secondAttribute="trailing" constant="8" symbolic="YES" id="ko5-Mi-gTp"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="alu-dj-OII" secondAttribute="bottom" constant="10" id="q7q-7X-iws"/>
+                                        <constraint firstAttribute="bottom" secondItem="alu-dj-OII" secondAttribute="bottom" constant="6" id="s9Y-r9-zfg"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="oPh-Cj-Jz8" secondAttribute="bottom" constant="10" id="yxO-wa-bd8"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="posterView" destination="alu-dj-OII" id="ti2-HP-Vou"/>
