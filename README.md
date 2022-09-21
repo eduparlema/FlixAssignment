@@ -15,10 +15,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-![](https://i.imgur.com/EcMMu0e.gif)
 
 
-<img src="https://i.imgur.com/EcMMu0e.gif" width=200 height=300><br>
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/105069549/191398838-ac90f5d1-b54f-447c-b9b8-7220e178d401.gif)
 
 ### Notes
 Describe any challenges encountered while building the app.
@@ -40,9 +39,9 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthrough GIF
 
-![](https://i.imgur.com/UszcdUf.gif)
+![ezgif com-gif-maker (6)](https://user-images.githubusercontent.com/105069549/191398657-93d62e18-1eed-45e5-a0ec-28821fd10333.gif)
 
-<img src="(https://i.imgur.com/UszcdUf.gif)" width=200><br>
+
 
 ### Notes
 I had some difficulties downloading cocoapods and loading the poster images. 
